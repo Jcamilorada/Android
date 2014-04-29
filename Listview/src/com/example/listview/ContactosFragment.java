@@ -14,7 +14,7 @@ public class ContactosFragment extends ListFragment {
 		super.onViewCreated(view, savedInstanceState);
 		ContactosArrayAdapter adapter = new ContactosArrayAdapter(
 				getActivity(), R.layout.list_view,
-				ContatosInformacion.getContactos());
+				ContactosInformacion.getContactos());
 		setListAdapter(adapter);
 	}
 

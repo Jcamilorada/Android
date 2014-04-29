@@ -3,7 +3,7 @@ package com.example.listview;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ContatosInformacion {
+public class ContactosInformacion {
 	public static List<Contacto> getContactos() {
 		List<Contacto> contactos = new ArrayList<Contacto>();
 		
