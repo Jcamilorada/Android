@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.intents.MainActivity" >
+
+    <item
+        android:id="@+id/action_2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_2"/>
+    <item
+        android:id="@+id/action_2_parameters"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_2_parameters"/>
+    <item
+        android:id="@+id/action_browser"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_browser"/>
+    <item
+        android:id="@+id/start_action_service"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/start_action_service"/>
+    <item
+        android:id="@+id/stop_action_service"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/stop_action_service"/>
+    <item
+        android:id="@+id/action_new_year"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_new_year"/>
+
+</menu>
