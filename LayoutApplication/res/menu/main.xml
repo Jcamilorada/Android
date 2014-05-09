@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.layoutapplication.MainActivity" >
+
+    <item
+        android:id="@+id/lineal_h"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/lineal_horizontal"/>
+    <item
+        android:id="@+id/lineal_v"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/lineal_vertical"/>
+    <item
+        android:id="@+id/relativo"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/relativo"/>
+    <item
+        android:id="@+id/grid"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/grid"/>
+
+</menu>

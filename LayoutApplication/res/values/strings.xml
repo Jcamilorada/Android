@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LayoutApplication</string>
+    <string name="string1">Element 1</string>
+    <string name="string2">Element 2</string>
+    <string name="string3">Element 3</string>
+    <string name="string4">Element 4</string>
+    <string name="lineal_vertical">Lineal vertical</string>
+    <string name="lineal_horizontal">Lineal horizontal</string>
+    <string name="relativo">Relativo</string>
+    <string name="grid">Grid</string>
+
+</resources>
