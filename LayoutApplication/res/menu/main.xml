@@ -23,5 +23,10 @@
         android:orderInCategory="100"
         android:showAsAction="never"
         android:title="@string/grid"/>
+    <item
+        android:id="@+id/frameLayout"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/frameLayout"/>
 
 </menu>

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.fragments.FrameFragment;
 import com.example.fragments.GridFragment;
 import com.example.fragments.HorizontalFragment;
 import com.example.fragments.RelativeFragment;
@@ -19,6 +20,7 @@ public class MainActivity extends Activity {
 	public static VerticalFragment vFragment = new VerticalFragment();
 	public static RelativeFragment rFragment = new RelativeFragment();
 	public static GridFragment gFragment = new GridFragment();
+	public static FrameFragment frameFragment = new FrameFragment();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +59,10 @@ public class MainActivity extends Activity {
 		
 		else if (id == R.id.grid){
 			ft.replace(R.id.container, gFragment, CONTENT);
+		}
+		
+		else if (id == R.id.frameLayout){
+			ft.replace(R.id.container, frameFragment, CONTENT);
 		}
 
 		ft.commit();
