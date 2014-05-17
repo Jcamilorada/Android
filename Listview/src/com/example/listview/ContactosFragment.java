@@ -29,4 +29,12 @@ public class ContactosFragment extends ListFragment {
 	
 	
 
+	@Override
+	public void onListItemClick(ListView l, View v, int position, long id) {
+		Contacto contacto = ContactosInformacion.getContactos().get(position);
+		Toast toast = Toast.makeText(v.getContext(), contacto.getName(),
+				Toast.LENGTH_LONG);
+		toast.show();
+	}
+
 }
