@@ -3,8 +3,17 @@ package com.example.listview;
 import android.app.ListFragment;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ListView;
+import android.widget.Toast;
 
 public class ContactosFragment extends ListFragment {
+
+	@Override
+	public void onListItemClick(ListView l, View v, int position, long id) {
+		Contacto contacto = ContactosInformacion.getContactos().get(position);
+		Toast toast = Toast.makeText(v.getContext(), contacto.getName(), Toast.LENGTH_LONG);
+		toast.show();
+	}
 
 	public ContactosFragment() {
 	}
@@ -17,5 +26,7 @@ public class ContactosFragment extends ListFragment {
 				ContactosInformacion.getContactos());
 		setListAdapter(adapter);
 	}
+	
+	
 
 }
