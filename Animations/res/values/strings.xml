@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Animations</string>
+    <string name="alpha">Animar alpha</string>
+    <string name="rotate">animar rotate</string>
+    <string name="transalate">animar transalate</string>
+    <string name="property">animar property</string>
+    <string name="scale">animar scale</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="animate">Animar!</string>
+    
+</resources>

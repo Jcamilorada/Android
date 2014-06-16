@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/alpha"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/alpha"/>
+    
+    <item
+        android:id="@+id/rotate"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/rotate"/>
+    
+    <item
+        android:id="@+id/transalate"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/transalate"/>
+    
+    <item
+        android:id="@+id/property"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/property"/>
+    
+    <item
+        android:id="@+id/scale"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/scale"/>
+
+</menu>
